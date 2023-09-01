@@ -27,6 +27,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   padding: 24px 0;
+  position: relative;
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -105,6 +106,12 @@ body {
 .titel-style {
   padding: 188px 0;
   background-color: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+background-image:url(../images/people-office.jpg);
+background-repeat:no-repeat;
+background-position:50% 50%;
+background-size: cover;
+
 }
 .advantage-style {
   padding: 120px 0;
@@ -179,6 +186,7 @@ ul {
 .link-font {
   display: flex;
   gap: 40px;
+  padding-bottom: 20px;
 }
 /* * {
   outline: 1px solid teal; */
@@ -201,9 +209,7 @@ ul {
   align-items: center;
   gap: 40px;
 }
-.vmist-titel {
-  /* height: 600px; */
-  background-color: #2e2f42;
+.vmist-titel { 
   text-align: center;
 }
 .advantage-items {
@@ -250,4 +256,15 @@ ul {
 }
 img {
   display: block;
+}
+.decor-after::after{
+  display: block;
+  content: "";
+  margin-left: auto;
+  margin-right: auto;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+background: var(--ocean, #404BBF);
+/* margin-top: 20px; */
 }
