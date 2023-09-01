@@ -1,0 +1,253 @@
+body {
+  font-family: Roboto, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.logotype {
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.logotype .name {
+  color: #2e2f42;
+}
+.logo-header {
+  margin-right: 76px;
+}
+.link-nav {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 24px 0;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-text-fontstyle {
+  font-style: normal;
+  margin-left: auto;
+}
+.contact-decoration {
+  color: #434455;
+  text-decoration: none;
+  font-weight: 400;
+  padding: 24px 0;
+}
+
+.contact-decoration:hover,
+.contact-decoration:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.h-text {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+.hh-text {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 72px;
+  text-align: center;
+}
+.hhh-text {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.buttons {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  font-family: Roboto, sans-serif;
+  margin-right: auto;
+  margin-left: auto;
+  border: none;
+  border-radius: 4px;
+}
+.buttons:hover,
+.buttons:focus {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+/* задний фон первой секции */
+.titel-style {
+  padding: 188px 0;
+  background-color: #2e2f42;
+}
+.advantage-style {
+  padding: 120px 0;
+  color: #2e2f42;
+  font-weight: 500;
+}
+.team-style {
+  background-color: #f4f4fd;
+  padding: 120px 0;
+}
+.main_text {
+  color: #434455;
+}
+.hh-text-center {
+  text-align: center;
+  color: #2e2f42;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
+.team-member {
+  width: calc((100% - 3 * 24px) / 4);
+ border-radius: 0px 0px 4px 4px;
+2. 
+}
+.name-futer-span {
+  color: #f4f4fd;
+}
+.color-text-futer {
+  color: #f4f4fd;
+  max-width: 264px;
+}
+.info-futer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+p,
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+/* .header-main {
+  border-bottom: 1px solid #e7e9fc;
+} */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  margin: 0 auto;
+  width: 1158px;
+  padding: 0 15px;
+}
+.link-font {
+  display: flex;
+  gap: 40px;
+}
+/* * {
+  outline: 1px solid teal; */
+}
+.heder-style {
+  border-bottom: 1px solid #e7e9fc;
+}
+.link-adress {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
+}
+.vmist-header {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+.header-container-nav {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.vmist-titel {
+  /* height: 600px; */
+  background-color: #2e2f42;
+  text-align: center;
+}
+.advantage-items {
+  display: flex;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.advantage-size {
+  width: calc((100%-72px) / 4);
+}
+
+.team-items {
+  display: flex;
+  text-align: center;
+  /* width: calc((100%-72px) / 4); */
+  gap: 24px;
+}
+.name-prof {
+  padding: 32px 0;
+}
+.logo-futer {
+  display: inline-block;
+  margin-bottom: 16px;
+  margin-right: 0;
+}
+.portfolio-style {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-date {
+  width: calc((100% - 48px) / 3);
+}
+.app-name {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+img {
+  display: block;
+}
