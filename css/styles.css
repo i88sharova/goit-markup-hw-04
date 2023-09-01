@@ -257,7 +257,8 @@ ul {
 img {
   display: block;
 }
-.decor-after::after{
+.decor-after::after{ 
+   position: absolute;
   display: block;
   content: "";
   margin-left: auto;
@@ -266,5 +267,7 @@ img {
   height: 4px;
   border-radius: 2px;
 background: var(--ocean, #404BBF);
+left: 0; 
+bottom: -1px;
 /* margin-top: 20px; */
 }
