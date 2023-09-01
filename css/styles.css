@@ -260,6 +260,10 @@ ul {
 img {
   display: block;
 }
+.decor-after
+{
+  color:#404bbf;
+}
 .decor-after::after{ 
    position: absolute;
   display: block;
