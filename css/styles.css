@@ -369,3 +369,10 @@ img {
   display: flex;
   align-items: baseline;
 }
+.parag-logo {
+  margin-right: 120px;
+}
+.futer-link:hover,
+.futer-link:focus {
+  background-color: #31d0aa;
+}
