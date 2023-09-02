@@ -355,3 +355,15 @@ img {
   display: flex;
   align-items: baseline;
 }
+.futer-soc-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.futer-soc-link {
+  display: flex;
+  gap: 16px;
+}
