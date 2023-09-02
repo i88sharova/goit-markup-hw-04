@@ -170,9 +170,7 @@ ul {
   padding-left: 0;
   list-style-type: none;
 }
-/* .header-main {
-  border-bottom: 1px solid #e7e9fc;
-} */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -236,7 +234,6 @@ ul {
 .team-items {
   display: flex;
   text-align: center;
-  /* width: calc((100%-72px) / 4); */
   gap: 24px;
 }
 .name-prof {
