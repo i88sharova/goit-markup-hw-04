@@ -98,7 +98,7 @@ body {
   margin-left: auto;
   border: none;
   border-radius: 4px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); ;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .buttons:hover,
 .buttons:focus {
@@ -109,13 +109,15 @@ body {
 .titel-style {
   padding: 188px 0;
   background-color: #2e2f42;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-   rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
-background-repeat:no-repeat;
-background-position:center;
-background-size: cover;
-max-width: 1440px;
-
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
 }
 .advantage-style {
   padding: 120px 0;
@@ -139,9 +141,10 @@ max-width: 1440px;
   margin-bottom: 72px;
 }
 .team-member {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   width: calc((100% - 3 * 24px) / 4);
- border-radius: 0px 0px 4px 4px;
-2. 
+  border-radius: 0px 0px 4px 4px;
 }
 .name-futer-span {
   color: #f4f4fd;
@@ -197,9 +200,8 @@ ul {
 
 .heder-style {
   border-bottom: 1px solid #e7e9fc;
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .link-adress {
   display: flex;
@@ -210,7 +212,7 @@ ul {
   height: 72px;
   display: flex;
   align-items: center;
-   /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 1px 6px rgba(46, 47, 66, 0.08); */
 }
 .header-container-nav {
@@ -218,7 +220,7 @@ ul {
   align-items: center;
   gap: 40px;
 }
-.vmist-titel { 
+.vmist-titel {
   text-align: center;
 }
 .advantage-items {
@@ -266,32 +268,55 @@ ul {
 img {
   display: block;
 }
-.decor-after
-{
-  color:#404bbf;
+.decor-after {
+  color: #404bbf;
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
-.decor-after::after{ 
-   position: absolute;
+.decor-after::after {
+  position: absolute;
   display: block;
-  content: "";
+  content: '';
   margin-left: auto;
   margin-right: auto;
   width: 48px;
   height: 4px;
   border-radius: 2px;
-background: var(--ocean, #404BBF);
-left: 0; 
-bottom: -1px;
-
+  background: var(--ocean, #404bbf);
+  left: 0;
+  bottom: -1px;
 }
-.list-icon-advantage{
+.list-icon-advantage {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 112px;
   width: 264px;
   background-color: #f4f4fd;
-  border-radius: 4px; 
+  border-radius: 4px;
   margin-bottom: 8px;
+}
+.soc-meregi {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.list-soc-meregi {
+  width: 40px;
+  height: 40px;
+}
+.soc-meregi-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.soc-meregi-link:hover,
+.soc-meregi-link:focus {
+  background-color: #404bbf;
+}
+.soc-meregi-icon {
+  fill: #f4f4fd;
 }
