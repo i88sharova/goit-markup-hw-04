@@ -352,8 +352,6 @@ img {
 
 .futer-soc-meregi {
   margin-right: 120px;
-  display: flex;
-  align-items: baseline;
 }
 .futer-soc-text {
   font-weight: 500;
@@ -366,4 +364,8 @@ img {
 .futer-soc-link {
   display: flex;
   gap: 16px;
+}
+.futer-state {
+  display: flex;
+  align-items: baseline;
 }
