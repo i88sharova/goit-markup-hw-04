@@ -210,9 +210,7 @@ ul {
   height: 72px;
   display: flex;
   align-items: center;
-  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08); */
-}
+ 
 .header-container-nav {
   display: flex;
   align-items: center;
@@ -257,9 +255,9 @@ ul {
 .portfolio-date {
   width: calc((100% - 48px) / 3);
 }
-/* .portfolio-date:hover .app-text {
+.portfolio-date:hover .app-text {
   transform: translateY(0%);
-} */
+} 
 /* .team-member:hover .main_text {
   transform: translateY(0%);
 } */
