@@ -33,7 +33,7 @@ body {
 .link-nav:hover,
 .link-nav:focus {
   color: #404bbf;
-  text-decoration: underline;
+  
 }
 
 .address-text-fontstyle {
@@ -51,7 +51,7 @@ body {
 .contact-decoration:hover,
 .contact-decoration:focus {
   color: #404bbf;
-  text-decoration: underline;
+  
 }
 
 .h-text {
@@ -67,7 +67,7 @@ body {
 }
 .hh-text {
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
@@ -107,8 +107,9 @@ body {
 }
 /* задний фон первой секции */
 .titel-style {
+  margin: 0 auto;
   padding: 188px 0;
-  background-color: #2e2f42;
+  background-color: var(--GREY, rgba(46, 47, 66, 0.70));
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -122,7 +123,7 @@ body {
 .advantage-style {
   padding: 120px 0;
   color: #2e2f42;
-  font-weight: 500;
+  font-weight: 400;
 }
 .team-style {
   background-color: #f4f4fd;
@@ -191,7 +192,7 @@ ul {
 .link-font {
   display: flex;
   gap: 40px;
-  padding-bottom: 20px;
+  
 }
 /* * {
   outline: 1px solid teal; */
@@ -209,17 +210,20 @@ ul {
 .vmist-header {
   height: 72px;
   display: flex;
-  align-items: center;
-  /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08); */
+  align-content: center;
+  /* align-items: flex-end; */
+  
 }
 .header-container-nav {
   display: flex;
   align-items: center;
   gap: 40px;
+
 }
 .vmist-titel {
+  
   text-align: center;
+
 }
 .advantage-items {
   display: flex;
@@ -284,6 +288,7 @@ img {
   background: var(--ocean, #404bbf);
   left: 0;
   bottom: -1px;
+  align-items: flex-end;
 }
 .list-icon-advantage {
   display: flex;
